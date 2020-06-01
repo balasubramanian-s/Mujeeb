@@ -16,7 +16,7 @@ public class UserDAOImpl implements UserDAO {
 	
 	@Autowired
 	private EntityManager entityManager;
-
+	//changes test
 	@Override
 	public List<User> get() {
 		Session curentSession = entityManager.unwrap(Session.class);
